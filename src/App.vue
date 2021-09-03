@@ -61,10 +61,10 @@ export default {
       // console.log(pdfTable)
 
       const html = htmlToPdfmake(pdfTable.innerHTML);
+      console.log(html)
       html[1].table.body.forEach(el=>{
         el.pop();
       })
-      // console.log(html[1].table.body)
 
       const documentDefinition = {content: html};
       pdfMake.vfs = pdfFonts.pdfMake.vfs;

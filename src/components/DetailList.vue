@@ -1,7 +1,7 @@
 <template>
 
   <tr>
-    <td>{{ id }}   {{ name }}</td>
+    <td style="text-align: left">{{ id }}   {{ name }}</td>
     <td>{{ price }}</td>
     <td>{{ count }}</td>
     <td>{{ price * count }}</td>

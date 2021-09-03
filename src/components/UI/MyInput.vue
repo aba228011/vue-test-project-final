@@ -1,6 +1,9 @@
 <template>
-  <input class="input"
-         :value="modelValue" @input="updateInput">
+  <label>
+
+    <input class="input"
+           :value="modelValue" @input="updateInput">
+  </label>
 </template>
 
 <script>
